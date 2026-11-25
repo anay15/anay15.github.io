@@ -1,0 +1,41 @@
+<!doctype html>
+<!-- Source for assets/img/og.png (1200x630 social preview). Rendered with headless Chrome:
+     chrome --headless=new --window-size=1200,630 --screenshot=assets/img/og.png tools/og.html -->
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+  <style>
+    html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
+    body {
+      background: #0b0f14; color: #e6edf3; font-family: Inter, sans-serif; position: relative;
+      background-image: linear-gradient(#1b2430 1px, transparent 1px), linear-gradient(90deg, #1b2430 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .fade { position: absolute; inset: 0; background: radial-gradient(ellipse 70% 80% at 20% 30%, transparent 0%, #0b0f14 75%); }
+    .content { position: absolute; left: 80px; top: 92px; right: 80px; }
+    .handle { font: 600 26px "JetBrains Mono", monospace; color: #5eead4; }
+    .handle b { color: #fbbf24; }
+    h1 { margin: 28px 0 0; font-size: 74px; line-height: 1.04; letter-spacing: -0.04em; font-weight: 700; max-width: 900px; }
+    .grad { background: linear-gradient(100deg, #5eead4, #60a5fa 55%, #a78bfa); -webkit-background-clip: text; color: transparent; }
+    .stats { display: flex; gap: 18px; margin-top: 48px; }
+    .stat { padding: 16px 22px; border: 1px solid #222d3b; border-radius: 16px; background: #121923; }
+    .stat b { display: block; font: 600 30px "JetBrains Mono", monospace; letter-spacing: -0.03em; }
+    .stat span { color: #8b98a8; font-size: 17px; }
+    .url { position: absolute; right: 80px; bottom: 56px; font: 500 22px "JetBrains Mono", monospace; color: #8b98a8; }
+  </style>
+</head>
+<body>
+  <div class="fade"></div>
+  <div class="content">
+    <div class="handle">~/anay<b>.</b>nayak</div>
+    <h1>Backend engineer building systems that <span class="grad">don't flinch under load.</span></h1>
+    <div class="stats">
+      <div class="stat"><b>200 → 4,000</b><span>RPS after re-architecture</span></div>
+      <div class="stat"><b>&lt;50ms</b><span>at 10k+ concurrent sessions</span></div>
+      <div class="stat"><b>−95%</b><span>API failures</span></div>
+    </div>
+  </div>
+  <div class="url">anay15.github.io</div>
+</body>
+</html>
